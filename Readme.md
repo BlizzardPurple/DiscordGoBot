@@ -50,6 +50,9 @@ Once the bot is running, it will listen for commands and reactions in the config
 ## Contribution
 Contributions to this project are welcome. Please fork the repository, make your changes, and submit a pull request.
 
+## Future Goals
+Adding a Time based reminder system for registering and completing the daily tasks. Also adding a "Hello" and "Goodbye" embed message whenever the Bot goes online or offline
+
 ---
 
 Please note that the actual implementation of the bot may vary based on the specific requirements of the server and the developer's preferences. Always test your bot thoroughly to ensure it functions as expected and adheres to the community guidelines.
