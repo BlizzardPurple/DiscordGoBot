@@ -24,7 +24,12 @@ This project provides a Discord bot designed to monitor and moderate chat enviro
 To run this Discord bot, you will need:
 - Go programming language installed on your system.
 - Access to a Discord server to invite the bot.
-- A PostgreSQL database for storing user data.
+- A PostgreSQL database for storing user data with this table:
+CREATE TABLE discord_messages(
+  id SERIAL PRIMARY KEY,
+  payload JSONB NOT NULL,
+  user_id BIGINT NOT NULL
+);
 
 ### Environment Variables
 Before running the bot, ensure that you have the following environment variables set:
